@@ -1,4 +1,4 @@
-# ASL Recognition
+# 🤟 ASL Recognition
 
 > *Real-time American Sign Language word recognition using computer vision and deep learning.*
 
@@ -61,8 +61,8 @@ This allows the system to distinguish signs that may have similar hand shapes bu
 ### 1. Clone the repository
 
 ```powershell
-git clone https://github.com/tailsbora/Asl-Recognition.git
-cd Asl-Recognition
+git clone https://github.com/tailsbora/ASL-Recognition.git
+cd ASL-Recognition
 ```
 
 ### 2. Create a virtual environment
@@ -233,7 +233,7 @@ Total = 189 features per frame
 
 Press `P` while the program is running to show or hide these landmarks.
 
-The red dots and cyan lines are only a visualization.
+The **red dots and cyan lines** are only a visualization.
 
 The neural network continues using the landmarks even when the visualization is hidden.
 
@@ -311,39 +311,65 @@ Frames 4–33
 
 This allows continuous real-time predictions.
 
-Short moments where the hands disappear do **not immediately erase the entire sequence**, which helps reduce unnecessary recognition delay.
+### What happens when the hands disappear?
 
-Longer periods without hands reset the sequence to prevent old movements from affecting future predictions.
+A short period of `NO HANDS` does **not** immediately erase the entire 30-frame sequence.
+
+If the hands return quickly, the recognizer keeps the useful recent sequence and waits for only a few fresh hand frames before continuing.
+
+If the hands remain absent for approximately:
+
+```text
+1.2 seconds
+```
+
+the old sequence is cleared because it is considered stale.
+
+This improves responsiveness while preventing old movements from affecting future signs.
 
 ---
 
 ## ⚡ Recognition Logic
 
-The neural network produces a confidence value for every possible word.
+The neural network produces a probability for every supported word.
 
-The program adds extra rules before speaking a prediction.
+The program adds additional temporal confirmation before a prediction is spoken.
 
 ### Fast recognition
 
-A word can be accepted quickly when:
+A sign can take the fast path when:
 
 ```text
 Confidence ≥ 90%
 ```
 
-and the same prediction appears on multiple consecutive processed frames.
+and the same prediction appears on:
+
+```text
+2 consecutive processed frames
+```
+
+This allows strong predictions to trigger text-to-speech very quickly.
 
 ### Normal recognition
 
-Predictions above approximately:
+Predictions at:
 
 ```text
-75%
+Confidence ≥ 75%
 ```
 
-must remain consistent across several recent predictions.
+use the normal confirmation system.
 
-This helps prevent random single-frame predictions from immediately triggering speech.
+The same word must appear in at least:
+
+```text
+2 of the last 3 predictions
+```
+
+before being accepted.
+
+This prevents one unstable frame from immediately triggering speech.
 
 > Neural-network confidence is not the same as certainty. A high-confidence prediction can still be incorrect.
 
@@ -359,7 +385,11 @@ When no hands are visible, the program displays:
 NO HANDS
 ```
 
-This greatly reduces false predictions while the user is standing in front of the camera without signing.
+No prediction is allowed to trigger text-to-speech during this state.
+
+Short hand disappearances are handled without unnecessarily restarting the entire recognition sequence.
+
+This greatly reduces false predictions while the user is not signing.
 
 ---
 
@@ -372,19 +402,23 @@ Once a word is confirmed:
 3. It is printed in the terminal.
 4. It is spoken automatically using `pyttsx3`.
 
-The speech engine runs in a separate thread so it does not freeze the camera.
+The speech engine runs on a separate thread so speaking does not freeze the webcam or recognition loop.
+
+A held sign is also prevented from repeatedly speaking the same word over and over.
+
+When a genuinely different sign is recognized, the new word can be spoken immediately without requiring the user to completely remove their hands first.
 
 ---
 
 ## ⚡ Low-Latency Camera
 
-Several optimizations are included to reduce camera delay.
+Several optimizations are included to reduce camera and recognition delay.
 
 ### Latest-frame capture
 
 The webcam runs on a separate thread.
 
-Instead of processing a queue of old frames:
+Instead of processing a growing queue of old camera frames:
 
 ```text
 Frame 1
@@ -394,19 +428,27 @@ Frame 4
 ...
 ```
 
-the program constantly replaces them with the **newest available frame**.
+the program continuously replaces the previous frame with the **newest available frame**.
 
-This prevents the display from slowly falling behind real time.
+This helps keep the camera view close to real time.
 
 ### Duplicate-frame protection
 
-The same camera frame is never processed more than once.
+The same captured webcam frame is not processed multiple times.
 
-### Smaller processing resolution
+### Smaller MediaPipe processing resolution
 
-MediaPipe analyzes a smaller copy of the camera image while the full camera image is still used for display.
+MediaPipe analyzes a reduced-resolution copy of the webcam image.
 
-This reduces CPU usage and improves responsiveness.
+The full camera image is still used for display.
+
+This reduces CPU usage while preserving the appearance of the final video.
+
+### MediaPipe Video Mode
+
+MediaPipe runs in video-tracking mode rather than treating every frame as a completely unrelated image.
+
+This allows it to use tracking information across frames and improves real-time performance.
 
 ---
 
@@ -418,7 +460,7 @@ The image displayed to the user is mirrored like a normal webcam:
 Display → Mirrored
 ```
 
-However, the neural network receives the original unmirrored image:
+However, the image sent into MediaPipe and the neural network is **not mirrored**:
 
 ```text
 Camera
@@ -428,7 +470,7 @@ Camera
    └── Mirrored → User Display
 ```
 
-This is important because the WLASL training videos were processed without mirroring.
+This is important because the WLASL training videos were processed without first mirroring them.
 
 Mirroring the neural-network input could reverse left/right hand information and reduce recognition accuracy.
 
@@ -465,7 +507,13 @@ The current 70-word neural network achieved:
 Validation Accuracy: 66.7%
 ```
 
-on the validation split used during training.
+on the held-out validation split used during training.
+
+The model correctly classified:
+
+```text
+80 / 120 validation sequences
+```
 
 Some examples of strong correct validation predictions were:
 
@@ -480,7 +528,9 @@ Some examples of strong correct validation predictions were:
 
 Performance varies significantly between signs.
 
-Some words are visually similar, and some classes currently have fewer training examples than others.
+Some signs are visually similar, and some classes currently have fewer usable training examples than others.
+
+A high confidence value also does not guarantee that the prediction is correct, which is why the real-time recognizer uses temporal confirmation in addition to raw neural-network confidence.
 
 ---
 
@@ -488,7 +538,7 @@ Some words are visually similar, and some classes currently have fewer training 
 
 The project uses the **WLASL — Word-Level American Sign Language dataset**.
 
-The current dataset used for this model contains:
+The current training dataset contains:
 
 ```text
 70 classes
@@ -497,9 +547,11 @@ The current dataset used for this model contains:
 189 features per frame
 ```
 
-The raw downloaded videos are not stored in this GitHub repository.
+The raw downloaded videos are **not stored in this GitHub repository**.
 
 Large generated training files are excluded using `.gitignore`.
+
+They are not required to run the included trained model.
 
 ---
 
@@ -528,19 +580,39 @@ cd WLASL\start_kit
 python download_more_signs.py
 ```
 
+Downloaded videos are stored under:
+
+```text
+selected_videos/
+```
+
 ### Step 2 — Extract landmarks
 
 ```powershell
 python extract_wlasl_final.py
 ```
 
-The extractor converts every usable video into:
+The extractor:
+
+- Reads the WLASL metadata
+- Uses the relevant sign frame range
+- Samples exactly 30 frames
+- Detects up to two hands
+- Detects body and face reference landmarks
+- Produces 189 features per frame
+- Saves the extracted sequence as NumPy data
+
+Each extracted sequence has the shape:
 
 ```text
 30 × 189
 ```
 
-NumPy sequences.
+The output is stored under:
+
+```text
+wlasl_sequences_final/
+```
 
 ### Step 3 — Train
 
@@ -572,14 +644,16 @@ The training pipeline includes:
 - Frame replacement
 - Random feature dropout
 
-Normalization statistics are calculated using the training data and stored inside the final model file.
+Normalization statistics are calculated using the **training split only** and are saved inside the final model checkpoint.
+
+The model can therefore use the exact same normalization during live inference.
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-Asl-Recognition/
+ASL-Recognition/
 │
 ├── first.py
 │   └── Main real-time recognizer
@@ -600,13 +674,19 @@ Asl-Recognition/
         │   └── Trained 70-word model
         │
         ├── WLASL_v0.3.json
+        │   └── WLASL metadata
         │
         ├── download_more_signs.py
+        │   └── Dataset downloader
         │
         ├── extract_wlasl_final.py
+        │   └── Landmark / sequence extractor
         │
         └── train_asl_torch.py
+            └── BiGRU training script
 ```
+
+Large downloaded videos and generated NumPy training sequences are intentionally excluded from GitHub.
 
 ---
 
@@ -635,6 +715,8 @@ Recognition can also be affected by:
 - Individual signing style
 - Similar-looking signs
 
+The WLASL training clips also come from different videos and signers than a typical live webcam environment, so real-world webcam performance can differ from validation performance.
+
 ---
 
 ## 🔮 Future Improvements
@@ -645,13 +727,14 @@ Some possible future upgrades:
 - Collect more training examples
 - Balance weak classes
 - Add webcam-recorded training samples
-- Add a dedicated `no_sign` class
+- Add a dedicated `no_sign` / transition class
 - Add sign-specific confidence thresholds
 - Improve continuous-sign segmentation
-- Add fingerspelling
+- Add fingerspelling recognition
 - Add hand velocity and acceleration features
 - Improve facial landmark features
 - Perform signer-independent evaluation
+- Improve temporal augmentation
 - Add GPU-accelerated training
 - Support full sentence-level recognition
 
@@ -665,7 +748,7 @@ If you find a problem or have an idea for a new feature, feel free to open an **
 
 Repository:
 
-[github.com/tailsbora/Asl-Recognition](https://github.com/tailsbora/Asl-Recognition)
+[github.com/tailsbora/ASL-Recognition](https://github.com/tailsbora/ASL-Recognition)
 
 ---
 
@@ -673,9 +756,9 @@ Repository:
 
 This project uses data and metadata from the **WLASL dataset**.
 
-Raw WLASL videos are not included in this repository.
+Raw WLASL source videos are not included in this repository.
 
-WLASL and other third-party projects such as MediaPipe, PyTorch, and OpenCV have their own licenses and usage requirements.
+WLASL and other third-party projects such as MediaPipe, PyTorch, OpenCV, and PyTorch have their own licenses and usage requirements.
 
 Please review the original projects before redistributing their data, models, or source code.
 
@@ -686,3 +769,26 @@ Please review the original projects before redistributing their data, models, or
 Created by [tailsbora](https://github.com/tailsbora).
 
 > *Built to explore how computer vision and temporal neural networks can be used for real-time sign-language recognition.*
+
+---
+
+## ⚡ TL;DR
+
+- 🤟 Real-time **ASL word recognition** from a webcam
+- 🧠 Uses a **2-layer Bidirectional GRU + attention**
+- 🤲 Tracks **two hands plus body and face landmarks**
+- ⏱️ Processes **30-frame × 189-feature** motion sequences
+- 📖 Recognizes **70 ASL words**
+- 🔊 Automatically speaks confirmed predictions
+- 🚫 Does not speak when no hands are detected
+- ⚡ Includes low-latency camera and fast high-confidence recognition
+- 📊 Current validation accuracy: **66.7%**
+- 🛠️ Built with **Python, MediaPipe, OpenCV, NumPy, PyTorch, and pyttsx3**
+
+Run it with:
+
+```powershell
+python first.py
+```
+
+> **In short:** point the webcam at yourself, perform one of the supported ASL signs, and the model tracks your movement, recognizes the word, displays it, and says it aloud.
