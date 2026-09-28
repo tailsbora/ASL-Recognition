@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# WLASL raw/training data
+WLASL/start_kit/selected_videos/
+WLASL/start_kit/wlasl_sequences_final/
+WLASL/start_kit/wlasl_sequences_max/
+WLASL/start_kit/wlasl_sequences/
+
+# Old/generated datasets
+asl_data/
+*.npz
+
+# Temporary files
+*.tmp
+.DS_Store
+Thumbs.db
