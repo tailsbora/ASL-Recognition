@@ -1,0 +1,3302 @@
+[
+  {
+    "true": "bathroom",
+    "predicted": "bathroom",
+    "correct": true,
+    "confidence": 0.123196,
+    "second_confidence": 0.097607,
+    "margin": 0.025588,
+    "top3": [
+      {
+        "word": "bathroom",
+        "confidence": 0.123196
+      },
+      {
+        "word": "mother",
+        "confidence": 0.097607
+      },
+      {
+        "word": "cold",
+        "confidence": 0.07519
+      }
+    ]
+  },
+  {
+    "true": "what",
+    "predicted": "student",
+    "correct": false,
+    "confidence": 0.798343,
+    "second_confidence": 0.036072,
+    "margin": 0.762271,
+    "top3": [
+      {
+        "word": "student",
+        "confidence": 0.798343
+      },
+      {
+        "word": "learn",
+        "confidence": 0.036072
+      },
+      {
+        "word": "write",
+        "confidence": 0.032961
+      }
+    ]
+  },
+  {
+    "true": "hot",
+    "predicted": "hot",
+    "correct": true,
+    "confidence": 0.768876,
+    "second_confidence": 0.01551,
+    "margin": 0.753366,
+    "top3": [
+      {
+        "word": "hot",
+        "confidence": 0.768876
+      },
+      {
+        "word": "student",
+        "confidence": 0.01551
+      },
+      {
+        "word": "me",
+        "confidence": 0.014306
+      }
+    ]
+  },
+  {
+    "true": "family",
+    "predicted": "family",
+    "correct": true,
+    "confidence": 0.963461,
+    "second_confidence": 0.00232,
+    "margin": 0.961141,
+    "top3": [
+      {
+        "word": "family",
+        "confidence": 0.963461
+      },
+      {
+        "word": "teacher",
+        "confidence": 0.00232
+      },
+      {
+        "word": "cat",
+        "confidence": 0.002109
+      }
+    ]
+  },
+  {
+    "true": "family",
+    "predicted": "family",
+    "correct": true,
+    "confidence": 0.976588,
+    "second_confidence": 0.002714,
+    "margin": 0.973874,
+    "top3": [
+      {
+        "word": "family",
+        "confidence": 0.976588
+      },
+      {
+        "word": "book",
+        "confidence": 0.002714
+      },
+      {
+        "word": "cat",
+        "confidence": 0.001672
+      }
+    ]
+  },
+  {
+    "true": "walk",
+    "predicted": "walk",
+    "correct": true,
+    "confidence": 0.890301,
+    "second_confidence": 0.01175,
+    "margin": 0.878551,
+    "top3": [
+      {
+        "word": "walk",
+        "confidence": 0.890301
+      },
+      {
+        "word": "house",
+        "confidence": 0.01175
+      },
+      {
+        "word": "week",
+        "confidence": 0.011572
+      }
+    ]
+  },
+  {
+    "true": "there",
+    "predicted": "there",
+    "correct": true,
+    "confidence": 0.949592,
+    "second_confidence": 0.004814,
+    "margin": 0.944779,
+    "top3": [
+      {
+        "word": "there",
+        "confidence": 0.949592
+      },
+      {
+        "word": "walk",
+        "confidence": 0.004814
+      },
+      {
+        "word": "brother",
+        "confidence": 0.003272
+      }
+    ]
+  },
+  {
+    "true": "help",
+    "predicted": "help",
+    "correct": true,
+    "confidence": 0.618786,
+    "second_confidence": 0.122883,
+    "margin": 0.495904,
+    "top3": [
+      {
+        "word": "help",
+        "confidence": 0.618786
+      },
+      {
+        "word": "stop",
+        "confidence": 0.122883
+      },
+      {
+        "word": "room",
+        "confidence": 0.046727
+      }
+    ]
+  },
+  {
+    "true": "water",
+    "predicted": "water",
+    "correct": true,
+    "confidence": 0.939663,
+    "second_confidence": 0.002395,
+    "margin": 0.937268,
+    "top3": [
+      {
+        "word": "water",
+        "confidence": 0.939663
+      },
+      {
+        "word": "door",
+        "confidence": 0.002395
+      },
+      {
+        "word": "sleep",
+        "confidence": 0.002219
+      }
+    ]
+  },
+  {
+    "true": "wrong",
+    "predicted": "wrong",
+    "correct": true,
+    "confidence": 0.477083,
+    "second_confidence": 0.065873,
+    "margin": 0.41121,
+    "top3": [
+      {
+        "word": "wrong",
+        "confidence": 0.477083
+      },
+      {
+        "word": "phone",
+        "confidence": 0.065873
+      },
+      {
+        "word": "forget",
+        "confidence": 0.061983
+      }
+    ]
+  },
+  {
+    "true": "bad",
+    "predicted": "bad",
+    "correct": true,
+    "confidence": 0.974025,
+    "second_confidence": 0.002014,
+    "margin": 0.972011,
+    "top3": [
+      {
+        "word": "bad",
+        "confidence": 0.974025
+      },
+      {
+        "word": "finish",
+        "confidence": 0.002014
+      },
+      {
+        "word": "forget",
+        "confidence": 0.001493
+      }
+    ]
+  },
+  {
+    "true": "wrong",
+    "predicted": "wrong",
+    "correct": true,
+    "confidence": 0.924392,
+    "second_confidence": 0.004317,
+    "margin": 0.920074,
+    "top3": [
+      {
+        "word": "wrong",
+        "confidence": 0.924392
+      },
+      {
+        "word": "thank_you",
+        "confidence": 0.004317
+      },
+      {
+        "word": "forget",
+        "confidence": 0.003982
+      }
+    ]
+  },
+  {
+    "true": "time",
+    "predicted": "time",
+    "correct": true,
+    "confidence": 0.888334,
+    "second_confidence": 0.01681,
+    "margin": 0.871523,
+    "top3": [
+      {
+        "word": "time",
+        "confidence": 0.888334
+      },
+      {
+        "word": "walk",
+        "confidence": 0.01681
+      },
+      {
+        "word": "day",
+        "confidence": 0.012653
+      }
+    ]
+  },
+  {
+    "true": "money",
+    "predicted": "money",
+    "correct": true,
+    "confidence": 0.896927,
+    "second_confidence": 0.006332,
+    "margin": 0.890595,
+    "top3": [
+      {
+        "word": "money",
+        "confidence": 0.896927
+      },
+      {
+        "word": "read",
+        "confidence": 0.006332
+      },
+      {
+        "word": "week",
+        "confidence": 0.00603
+      }
+    ]
+  },
+  {
+    "true": "go",
+    "predicted": "go",
+    "correct": true,
+    "confidence": 0.963725,
+    "second_confidence": 0.002039,
+    "margin": 0.961687,
+    "top3": [
+      {
+        "word": "go",
+        "confidence": 0.963725
+      },
+      {
+        "word": "play",
+        "confidence": 0.002039
+      },
+      {
+        "word": "language",
+        "confidence": 0.002028
+      }
+    ]
+  },
+  {
+    "true": "come",
+    "predicted": "come",
+    "correct": true,
+    "confidence": 0.484796,
+    "second_confidence": 0.079769,
+    "margin": 0.405027,
+    "top3": [
+      {
+        "word": "come",
+        "confidence": 0.484796
+      },
+      {
+        "word": "sad",
+        "confidence": 0.079769
+      },
+      {
+        "word": "read",
+        "confidence": 0.055169
+      }
+    ]
+  },
+  {
+    "true": "mother",
+    "predicted": "mother",
+    "correct": true,
+    "confidence": 0.923619,
+    "second_confidence": 0.004547,
+    "margin": 0.919072,
+    "top3": [
+      {
+        "word": "mother",
+        "confidence": 0.923619
+      },
+      {
+        "word": "book",
+        "confidence": 0.004547
+      },
+      {
+        "word": "right",
+        "confidence": 0.00345
+      }
+    ]
+  },
+  {
+    "true": "who",
+    "predicted": "who",
+    "correct": true,
+    "confidence": 0.978971,
+    "second_confidence": 0.001241,
+    "margin": 0.97773,
+    "top3": [
+      {
+        "word": "who",
+        "confidence": 0.978971
+      },
+      {
+        "word": "girl",
+        "confidence": 0.001241
+      },
+      {
+        "word": "where",
+        "confidence": 0.001198
+      }
+    ]
+  },
+  {
+    "true": "child",
+    "predicted": "child",
+    "correct": true,
+    "confidence": 0.951747,
+    "second_confidence": 0.002861,
+    "margin": 0.948886,
+    "top3": [
+      {
+        "word": "child",
+        "confidence": 0.951747
+      },
+      {
+        "word": "student",
+        "confidence": 0.002861
+      },
+      {
+        "word": "book",
+        "confidence": 0.002207
+      }
+    ]
+  },
+  {
+    "true": "read",
+    "predicted": "student",
+    "correct": false,
+    "confidence": 0.783559,
+    "second_confidence": 0.06538,
+    "margin": 0.718178,
+    "top3": [
+      {
+        "word": "student",
+        "confidence": 0.783559
+      },
+      {
+        "word": "learn",
+        "confidence": 0.06538
+      },
+      {
+        "word": "night",
+        "confidence": 0.024451
+      }
+    ]
+  },
+  {
+    "true": "cat",
+    "predicted": "cat",
+    "correct": true,
+    "confidence": 0.878142,
+    "second_confidence": 0.018633,
+    "margin": 0.859509,
+    "top3": [
+      {
+        "word": "cat",
+        "confidence": 0.878142
+      },
+      {
+        "word": "mother",
+        "confidence": 0.018633
+      },
+      {
+        "word": "no",
+        "confidence": 0.006489
+      }
+    ]
+  },
+  {
+    "true": "write",
+    "predicted": "write",
+    "correct": true,
+    "confidence": 0.83148,
+    "second_confidence": 0.032249,
+    "margin": 0.799231,
+    "top3": [
+      {
+        "word": "write",
+        "confidence": 0.83148
+      },
+      {
+        "word": "what",
+        "confidence": 0.032249
+      },
+      {
+        "word": "language",
+        "confidence": 0.015899
+      }
+    ]
+  },
+  {
+    "true": "man",
+    "predicted": "man",
+    "correct": true,
+    "confidence": 0.941351,
+    "second_confidence": 0.006391,
+    "margin": 0.93496,
+    "top3": [
+      {
+        "word": "man",
+        "confidence": 0.941351
+      },
+      {
+        "word": "boy",
+        "confidence": 0.006391
+      },
+      {
+        "word": "remember",
+        "confidence": 0.00259
+      }
+    ]
+  },
+  {
+    "true": "wait",
+    "predicted": "wait",
+    "correct": true,
+    "confidence": 0.952538,
+    "second_confidence": 0.003578,
+    "margin": 0.94896,
+    "top3": [
+      {
+        "word": "wait",
+        "confidence": 0.952538
+      },
+      {
+        "word": "book",
+        "confidence": 0.003578
+      },
+      {
+        "word": "sleep",
+        "confidence": 0.002161
+      }
+    ]
+  },
+  {
+    "true": "where",
+    "predicted": "where",
+    "correct": true,
+    "confidence": 0.974718,
+    "second_confidence": 0.001683,
+    "margin": 0.973034,
+    "top3": [
+      {
+        "word": "where",
+        "confidence": 0.974718
+      },
+      {
+        "word": "bathroom",
+        "confidence": 0.001683
+      },
+      {
+        "word": "write",
+        "confidence": 0.001477
+      }
+    ]
+  },
+  {
+    "true": "food",
+    "predicted": "food",
+    "correct": true,
+    "confidence": 0.36981,
+    "second_confidence": 0.267956,
+    "margin": 0.101855,
+    "top3": [
+      {
+        "word": "food",
+        "confidence": 0.36981
+      },
+      {
+        "word": "eat",
+        "confidence": 0.267956
+      },
+      {
+        "word": "sleep",
+        "confidence": 0.132185
+      }
+    ]
+  },
+  {
+    "true": "computer",
+    "predicted": "computer",
+    "correct": true,
+    "confidence": 0.481238,
+    "second_confidence": 0.254398,
+    "margin": 0.22684,
+    "top3": [
+      {
+        "word": "computer",
+        "confidence": 0.481238
+      },
+      {
+        "word": "door",
+        "confidence": 0.254398
+      },
+      {
+        "word": "answer",
+        "confidence": 0.022686
+      }
+    ]
+  },
+  {
+    "true": "thank_you",
+    "predicted": "thank_you",
+    "correct": true,
+    "confidence": 0.879431,
+    "second_confidence": 0.022148,
+    "margin": 0.857283,
+    "top3": [
+      {
+        "word": "thank_you",
+        "confidence": 0.879431
+      },
+      {
+        "word": "please",
+        "confidence": 0.022148
+      },
+      {
+        "word": "good",
+        "confidence": 0.006652
+      }
+    ]
+  },
+  {
+    "true": "like",
+    "predicted": "like",
+    "correct": true,
+    "confidence": 0.949599,
+    "second_confidence": 0.004416,
+    "margin": 0.945184,
+    "top3": [
+      {
+        "word": "like",
+        "confidence": 0.949599
+      },
+      {
+        "word": "day",
+        "confidence": 0.004416
+      },
+      {
+        "word": "read",
+        "confidence": 0.00323
+      }
+    ]
+  },
+  {
+    "true": "teacher",
+    "predicted": "teacher",
+    "correct": true,
+    "confidence": 0.85157,
+    "second_confidence": 0.026634,
+    "margin": 0.824936,
+    "top3": [
+      {
+        "word": "teacher",
+        "confidence": 0.85157
+      },
+      {
+        "word": "house",
+        "confidence": 0.026634
+      },
+      {
+        "word": "finish",
+        "confidence": 0.011855
+      }
+    ]
+  },
+  {
+    "true": "month",
+    "predicted": "month",
+    "correct": true,
+    "confidence": 0.906362,
+    "second_confidence": 0.030951,
+    "margin": 0.875411,
+    "top3": [
+      {
+        "word": "month",
+        "confidence": 0.906362
+      },
+      {
+        "word": "when",
+        "confidence": 0.030951
+      },
+      {
+        "word": "answer",
+        "confidence": 0.00518
+      }
+    ]
+  },
+  {
+    "true": "sorry",
+    "predicted": "sorry",
+    "correct": true,
+    "confidence": 0.983424,
+    "second_confidence": 0.001151,
+    "margin": 0.982273,
+    "top3": [
+      {
+        "word": "sorry",
+        "confidence": 0.983424
+      },
+      {
+        "word": "coffee",
+        "confidence": 0.001151
+      },
+      {
+        "word": "book",
+        "confidence": 0.000929
+      }
+    ]
+  },
+  {
+    "true": "yes",
+    "predicted": "yes",
+    "correct": true,
+    "confidence": 0.955273,
+    "second_confidence": 0.002493,
+    "margin": 0.95278,
+    "top3": [
+      {
+        "word": "yes",
+        "confidence": 0.955273
+      },
+      {
+        "word": "me",
+        "confidence": 0.002493
+      },
+      {
+        "word": "student",
+        "confidence": 0.002142
+      }
+    ]
+  },
+  {
+    "true": "stop",
+    "predicted": "money",
+    "correct": false,
+    "confidence": 0.237621,
+    "second_confidence": 0.093843,
+    "margin": 0.143778,
+    "top3": [
+      {
+        "word": "money",
+        "confidence": 0.237621
+      },
+      {
+        "word": "help",
+        "confidence": 0.093843
+      },
+      {
+        "word": "please",
+        "confidence": 0.051784
+      }
+    ]
+  },
+  {
+    "true": "room",
+    "predicted": "room",
+    "correct": true,
+    "confidence": 0.869376,
+    "second_confidence": 0.009447,
+    "margin": 0.85993,
+    "top3": [
+      {
+        "word": "room",
+        "confidence": 0.869376
+      },
+      {
+        "word": "music",
+        "confidence": 0.009447
+      },
+      {
+        "word": "week",
+        "confidence": 0.008478
+      }
+    ]
+  },
+  {
+    "true": "again",
+    "predicted": "school",
+    "correct": false,
+    "confidence": 0.219789,
+    "second_confidence": 0.159441,
+    "margin": 0.060348,
+    "top3": [
+      {
+        "word": "school",
+        "confidence": 0.219789
+      },
+      {
+        "word": "write",
+        "confidence": 0.159441
+      },
+      {
+        "word": "learn",
+        "confidence": 0.057183
+      }
+    ]
+  },
+  {
+    "true": "forget",
+    "predicted": "why",
+    "correct": false,
+    "confidence": 0.459341,
+    "second_confidence": 0.178448,
+    "margin": 0.280893,
+    "top3": [
+      {
+        "word": "why",
+        "confidence": 0.459341
+      },
+      {
+        "word": "forget",
+        "confidence": 0.178448
+      },
+      {
+        "word": "phone",
+        "confidence": 0.080067
+      }
+    ]
+  },
+  {
+    "true": "name",
+    "predicted": "name",
+    "correct": true,
+    "confidence": 0.980342,
+    "second_confidence": 0.001696,
+    "margin": 0.978646,
+    "top3": [
+      {
+        "word": "name",
+        "confidence": 0.980342
+      },
+      {
+        "word": "walk",
+        "confidence": 0.001696
+      },
+      {
+        "word": "day",
+        "confidence": 0.00144
+      }
+    ]
+  },
+  {
+    "true": "who",
+    "predicted": "who",
+    "correct": true,
+    "confidence": 0.861793,
+    "second_confidence": 0.064852,
+    "margin": 0.796941,
+    "top3": [
+      {
+        "word": "who",
+        "confidence": 0.861793
+      },
+      {
+        "word": "girl",
+        "confidence": 0.064852
+      },
+      {
+        "word": "where",
+        "confidence": 0.007695
+      }
+    ]
+  },
+  {
+    "true": "know",
+    "predicted": "know",
+    "correct": true,
+    "confidence": 0.983866,
+    "second_confidence": 0.00135,
+    "margin": 0.982516,
+    "top3": [
+      {
+        "word": "know",
+        "confidence": 0.983866
+      },
+      {
+        "word": "sleep",
+        "confidence": 0.00135
+      },
+      {
+        "word": "computer",
+        "confidence": 0.00096
+      }
+    ]
+  },
+  {
+    "true": "school",
+    "predicted": "school",
+    "correct": true,
+    "confidence": 0.86101,
+    "second_confidence": 0.022935,
+    "margin": 0.838075,
+    "top3": [
+      {
+        "word": "school",
+        "confidence": 0.86101
+      },
+      {
+        "word": "house",
+        "confidence": 0.022935
+      },
+      {
+        "word": "week",
+        "confidence": 0.014725
+      }
+    ]
+  },
+  {
+    "true": "tired",
+    "predicted": "tired",
+    "correct": true,
+    "confidence": 0.9119,
+    "second_confidence": 0.005661,
+    "margin": 0.90624,
+    "top3": [
+      {
+        "word": "tired",
+        "confidence": 0.9119
+      },
+      {
+        "word": "come",
+        "confidence": 0.005661
+      },
+      {
+        "word": "learn",
+        "confidence": 0.00472
+      }
+    ]
+  },
+  {
+    "true": "again",
+    "predicted": "again",
+    "correct": true,
+    "confidence": 0.845959,
+    "second_confidence": 0.041475,
+    "margin": 0.804484,
+    "top3": [
+      {
+        "word": "again",
+        "confidence": 0.845959
+      },
+      {
+        "word": "write",
+        "confidence": 0.041475
+      },
+      {
+        "word": "stop",
+        "confidence": 0.007272
+      }
+    ]
+  },
+  {
+    "true": "run",
+    "predicted": "friend",
+    "correct": false,
+    "confidence": 0.255758,
+    "second_confidence": 0.079215,
+    "margin": 0.176543,
+    "top3": [
+      {
+        "word": "friend",
+        "confidence": 0.255758
+      },
+      {
+        "word": "brother",
+        "confidence": 0.079215
+      },
+      {
+        "word": "coffee",
+        "confidence": 0.049764
+      }
+    ]
+  },
+  {
+    "true": "man",
+    "predicted": "man",
+    "correct": true,
+    "confidence": 0.512254,
+    "second_confidence": 0.075845,
+    "margin": 0.436409,
+    "top3": [
+      {
+        "word": "man",
+        "confidence": 0.512254
+      },
+      {
+        "word": "week",
+        "confidence": 0.075845
+      },
+      {
+        "word": "how",
+        "confidence": 0.042201
+      }
+    ]
+  },
+  {
+    "true": "no",
+    "predicted": "no",
+    "correct": true,
+    "confidence": 0.88732,
+    "second_confidence": 0.009766,
+    "margin": 0.877554,
+    "top3": [
+      {
+        "word": "no",
+        "confidence": 0.88732
+      },
+      {
+        "word": "cat",
+        "confidence": 0.009766
+      },
+      {
+        "word": "teacher",
+        "confidence": 0.007803
+      }
+    ]
+  },
+  {
+    "true": "cold",
+    "predicted": "cold",
+    "correct": true,
+    "confidence": 0.984529,
+    "second_confidence": 0.002147,
+    "margin": 0.982382,
+    "top3": [
+      {
+        "word": "cold",
+        "confidence": 0.984529
+      },
+      {
+        "word": "teacher",
+        "confidence": 0.002147
+      },
+      {
+        "word": "cat",
+        "confidence": 0.0011
+      }
+    ]
+  },
+  {
+    "true": "like",
+    "predicted": "like",
+    "correct": true,
+    "confidence": 0.847239,
+    "second_confidence": 0.010148,
+    "margin": 0.837092,
+    "top3": [
+      {
+        "word": "like",
+        "confidence": 0.847239
+      },
+      {
+        "word": "you",
+        "confidence": 0.010148
+      },
+      {
+        "word": "please",
+        "confidence": 0.006121
+      }
+    ]
+  },
+  {
+    "true": "brother",
+    "predicted": "brother",
+    "correct": true,
+    "confidence": 0.964486,
+    "second_confidence": 0.004065,
+    "margin": 0.960421,
+    "top3": [
+      {
+        "word": "brother",
+        "confidence": 0.964486
+      },
+      {
+        "word": "sister",
+        "confidence": 0.004065
+      },
+      {
+        "word": "boy",
+        "confidence": 0.001972
+      }
+    ]
+  },
+  {
+    "true": "sad",
+    "predicted": "sad",
+    "correct": true,
+    "confidence": 0.973545,
+    "second_confidence": 0.002282,
+    "margin": 0.971263,
+    "top3": [
+      {
+        "word": "sad",
+        "confidence": 0.973545
+      },
+      {
+        "word": "come",
+        "confidence": 0.002282
+      },
+      {
+        "word": "finish",
+        "confidence": 0.001746
+      }
+    ]
+  },
+  {
+    "true": "woman",
+    "predicted": "woman",
+    "correct": true,
+    "confidence": 0.445917,
+    "second_confidence": 0.30936,
+    "margin": 0.136557,
+    "top3": [
+      {
+        "word": "woman",
+        "confidence": 0.445917
+      },
+      {
+        "word": "man",
+        "confidence": 0.30936
+      },
+      {
+        "word": "sister",
+        "confidence": 0.008955
+      }
+    ]
+  },
+  {
+    "true": "hot",
+    "predicted": "hot",
+    "correct": true,
+    "confidence": 0.768876,
+    "second_confidence": 0.01551,
+    "margin": 0.753366,
+    "top3": [
+      {
+        "word": "hot",
+        "confidence": 0.768876
+      },
+      {
+        "word": "student",
+        "confidence": 0.01551
+      },
+      {
+        "word": "me",
+        "confidence": 0.014306
+      }
+    ]
+  },
+  {
+    "true": "play",
+    "predicted": "play",
+    "correct": true,
+    "confidence": 0.863984,
+    "second_confidence": 0.023194,
+    "margin": 0.84079,
+    "top3": [
+      {
+        "word": "play",
+        "confidence": 0.863984
+      },
+      {
+        "word": "how",
+        "confidence": 0.023194
+      },
+      {
+        "word": "week",
+        "confidence": 0.019153
+      }
+    ]
+  },
+  {
+    "true": "home",
+    "predicted": "home",
+    "correct": true,
+    "confidence": 0.979529,
+    "second_confidence": 0.001176,
+    "margin": 0.978353,
+    "top3": [
+      {
+        "word": "home",
+        "confidence": 0.979529
+      },
+      {
+        "word": "teacher",
+        "confidence": 0.001176
+      },
+      {
+        "word": "food",
+        "confidence": 0.000946
+      }
+    ]
+  },
+  {
+    "true": "sister",
+    "predicted": "right",
+    "correct": false,
+    "confidence": 0.803141,
+    "second_confidence": 0.020842,
+    "margin": 0.782299,
+    "top3": [
+      {
+        "word": "right",
+        "confidence": 0.803141
+      },
+      {
+        "word": "sister",
+        "confidence": 0.020842
+      },
+      {
+        "word": "year",
+        "confidence": 0.020614
+      }
+    ]
+  },
+  {
+    "true": "small",
+    "predicted": "small",
+    "correct": true,
+    "confidence": 0.93094,
+    "second_confidence": 0.005168,
+    "margin": 0.925772,
+    "top3": [
+      {
+        "word": "small",
+        "confidence": 0.93094
+      },
+      {
+        "word": "cat",
+        "confidence": 0.005168
+      },
+      {
+        "word": "play",
+        "confidence": 0.004433
+      }
+    ]
+  },
+  {
+    "true": "how",
+    "predicted": "how",
+    "correct": true,
+    "confidence": 0.961811,
+    "second_confidence": 0.004824,
+    "margin": 0.956987,
+    "top3": [
+      {
+        "word": "how",
+        "confidence": 0.961811
+      },
+      {
+        "word": "week",
+        "confidence": 0.004824
+      },
+      {
+        "word": "play",
+        "confidence": 0.003121
+      }
+    ]
+  },
+  {
+    "true": "dog",
+    "predicted": "why",
+    "correct": false,
+    "confidence": 0.296149,
+    "second_confidence": 0.202331,
+    "margin": 0.093817,
+    "top3": [
+      {
+        "word": "why",
+        "confidence": 0.296149
+      },
+      {
+        "word": "forget",
+        "confidence": 0.202331
+      },
+      {
+        "word": "dog",
+        "confidence": 0.093463
+      }
+    ]
+  },
+  {
+    "true": "eat",
+    "predicted": "eat",
+    "correct": true,
+    "confidence": 0.966082,
+    "second_confidence": 0.004793,
+    "margin": 0.961289,
+    "top3": [
+      {
+        "word": "eat",
+        "confidence": 0.966082
+      },
+      {
+        "word": "sleep",
+        "confidence": 0.004793
+      },
+      {
+        "word": "food",
+        "confidence": 0.002105
+      }
+    ]
+  },
+  {
+    "true": "water",
+    "predicted": "water",
+    "correct": true,
+    "confidence": 0.955967,
+    "second_confidence": 0.001604,
+    "margin": 0.954363,
+    "top3": [
+      {
+        "word": "water",
+        "confidence": 0.955967
+      },
+      {
+        "word": "love",
+        "confidence": 0.001604
+      },
+      {
+        "word": "book",
+        "confidence": 0.001582
+      }
+    ]
+  },
+  {
+    "true": "want",
+    "predicted": "want",
+    "correct": true,
+    "confidence": 0.938689,
+    "second_confidence": 0.00889,
+    "margin": 0.929798,
+    "top3": [
+      {
+        "word": "want",
+        "confidence": 0.938689
+      },
+      {
+        "word": "book",
+        "confidence": 0.00889
+      },
+      {
+        "word": "what",
+        "confidence": 0.004524
+      }
+    ]
+  },
+  {
+    "true": "think",
+    "predicted": "think",
+    "correct": true,
+    "confidence": 0.950506,
+    "second_confidence": 0.006509,
+    "margin": 0.943997,
+    "top3": [
+      {
+        "word": "think",
+        "confidence": 0.950506
+      },
+      {
+        "word": "apple",
+        "confidence": 0.006509
+      },
+      {
+        "word": "month",
+        "confidence": 0.003741
+      }
+    ]
+  },
+  {
+    "true": "learn",
+    "predicted": "learn",
+    "correct": true,
+    "confidence": 0.193281,
+    "second_confidence": 0.186735,
+    "margin": 0.006546,
+    "top3": [
+      {
+        "word": "learn",
+        "confidence": 0.193281
+      },
+      {
+        "word": "school",
+        "confidence": 0.186735
+      },
+      {
+        "word": "write",
+        "confidence": 0.111239
+      }
+    ]
+  },
+  {
+    "true": "book",
+    "predicted": "book",
+    "correct": true,
+    "confidence": 0.647753,
+    "second_confidence": 0.121097,
+    "margin": 0.526655,
+    "top3": [
+      {
+        "word": "book",
+        "confidence": 0.647753
+      },
+      {
+        "word": "want",
+        "confidence": 0.121097
+      },
+      {
+        "word": "stop",
+        "confidence": 0.036784
+      }
+    ]
+  },
+  {
+    "true": "bad",
+    "predicted": "hot",
+    "correct": false,
+    "confidence": 0.756177,
+    "second_confidence": 0.032442,
+    "margin": 0.723735,
+    "top3": [
+      {
+        "word": "hot",
+        "confidence": 0.756177
+      },
+      {
+        "word": "bad",
+        "confidence": 0.032442
+      },
+      {
+        "word": "thank_you",
+        "confidence": 0.023006
+      }
+    ]
+  },
+  {
+    "true": "name",
+    "predicted": "name",
+    "correct": true,
+    "confidence": 0.98284,
+    "second_confidence": 0.002271,
+    "margin": 0.980569,
+    "top3": [
+      {
+        "word": "name",
+        "confidence": 0.98284
+      },
+      {
+        "word": "walk",
+        "confidence": 0.002271
+      },
+      {
+        "word": "room",
+        "confidence": 0.001275
+      }
+    ]
+  },
+  {
+    "true": "there",
+    "predicted": "there",
+    "correct": true,
+    "confidence": 0.80838,
+    "second_confidence": 0.050412,
+    "margin": 0.757967,
+    "top3": [
+      {
+        "word": "there",
+        "confidence": 0.80838
+      },
+      {
+        "word": "dog",
+        "confidence": 0.050412
+      },
+      {
+        "word": "read",
+        "confidence": 0.012858
+      }
+    ]
+  },
+  {
+    "true": "remember",
+    "predicted": "remember",
+    "correct": true,
+    "confidence": 0.976256,
+    "second_confidence": 0.005784,
+    "margin": 0.970472,
+    "top3": [
+      {
+        "word": "remember",
+        "confidence": 0.976256
+      },
+      {
+        "word": "month",
+        "confidence": 0.005784
+      },
+      {
+        "word": "chair",
+        "confidence": 0.001677
+      }
+    ]
+  },
+  {
+    "true": "food",
+    "predicted": "food",
+    "correct": true,
+    "confidence": 0.824733,
+    "second_confidence": 0.053938,
+    "margin": 0.770795,
+    "top3": [
+      {
+        "word": "food",
+        "confidence": 0.824733
+      },
+      {
+        "word": "sleep",
+        "confidence": 0.053938
+      },
+      {
+        "word": "run",
+        "confidence": 0.006572
+      }
+    ]
+  },
+  {
+    "true": "sister",
+    "predicted": "sister",
+    "correct": true,
+    "confidence": 0.809346,
+    "second_confidence": 0.041617,
+    "margin": 0.767729,
+    "top3": [
+      {
+        "word": "sister",
+        "confidence": 0.809346
+      },
+      {
+        "word": "run",
+        "confidence": 0.041617
+      },
+      {
+        "word": "small",
+        "confidence": 0.024404
+      }
+    ]
+  },
+  {
+    "true": "computer",
+    "predicted": "computer",
+    "correct": true,
+    "confidence": 0.894179,
+    "second_confidence": 0.051914,
+    "margin": 0.842265,
+    "top3": [
+      {
+        "word": "computer",
+        "confidence": 0.894179
+      },
+      {
+        "word": "father",
+        "confidence": 0.051914
+      },
+      {
+        "word": "music",
+        "confidence": 0.002695
+      }
+    ]
+  },
+  {
+    "true": "work",
+    "predicted": "work",
+    "correct": true,
+    "confidence": 0.931917,
+    "second_confidence": 0.007253,
+    "margin": 0.924664,
+    "top3": [
+      {
+        "word": "work",
+        "confidence": 0.931917
+      },
+      {
+        "word": "music",
+        "confidence": 0.007253
+      },
+      {
+        "word": "answer",
+        "confidence": 0.00637
+      }
+    ]
+  },
+  {
+    "true": "apple",
+    "predicted": "yesterday",
+    "correct": false,
+    "confidence": 0.969066,
+    "second_confidence": 0.004511,
+    "margin": 0.964555,
+    "top3": [
+      {
+        "word": "yesterday",
+        "confidence": 0.969066
+      },
+      {
+        "word": "apple",
+        "confidence": 0.004511
+      },
+      {
+        "word": "girl",
+        "confidence": 0.001852
+      }
+    ]
+  },
+  {
+    "true": "hello",
+    "predicted": "hello",
+    "correct": true,
+    "confidence": 0.976333,
+    "second_confidence": 0.005206,
+    "margin": 0.971127,
+    "top3": [
+      {
+        "word": "hello",
+        "confidence": 0.976333
+      },
+      {
+        "word": "boy",
+        "confidence": 0.005206
+      },
+      {
+        "word": "walk",
+        "confidence": 0.003488
+      }
+    ]
+  },
+  {
+    "true": "chair",
+    "predicted": "chair",
+    "correct": true,
+    "confidence": 0.331297,
+    "second_confidence": 0.315352,
+    "margin": 0.015945,
+    "top3": [
+      {
+        "word": "chair",
+        "confidence": 0.331297
+      },
+      {
+        "word": "time",
+        "confidence": 0.315352
+      },
+      {
+        "word": "walk",
+        "confidence": 0.144881
+      }
+    ]
+  },
+  {
+    "true": "music",
+    "predicted": "music",
+    "correct": true,
+    "confidence": 0.194903,
+    "second_confidence": 0.123184,
+    "margin": 0.07172,
+    "top3": [
+      {
+        "word": "music",
+        "confidence": 0.194903
+      },
+      {
+        "word": "computer",
+        "confidence": 0.123184
+      },
+      {
+        "word": "friend",
+        "confidence": 0.045457
+      }
+    ]
+  },
+  {
+    "true": "here",
+    "predicted": "here",
+    "correct": true,
+    "confidence": 0.945829,
+    "second_confidence": 0.007472,
+    "margin": 0.938356,
+    "top3": [
+      {
+        "word": "here",
+        "confidence": 0.945829
+      },
+      {
+        "word": "book",
+        "confidence": 0.007472
+      },
+      {
+        "word": "student",
+        "confidence": 0.003511
+      }
+    ]
+  },
+  {
+    "true": "door",
+    "predicted": "family",
+    "correct": false,
+    "confidence": 0.833361,
+    "second_confidence": 0.01971,
+    "margin": 0.813651,
+    "top3": [
+      {
+        "word": "family",
+        "confidence": 0.833361
+      },
+      {
+        "word": "door",
+        "confidence": 0.01971
+      },
+      {
+        "word": "more",
+        "confidence": 0.012438
+      }
+    ]
+  },
+  {
+    "true": "right",
+    "predicted": "right",
+    "correct": true,
+    "confidence": 0.935114,
+    "second_confidence": 0.016859,
+    "margin": 0.918255,
+    "top3": [
+      {
+        "word": "right",
+        "confidence": 0.935114
+      },
+      {
+        "word": "coffee",
+        "confidence": 0.016859
+      },
+      {
+        "word": "music",
+        "confidence": 0.008048
+      }
+    ]
+  },
+  {
+    "true": "school",
+    "predicted": "school",
+    "correct": true,
+    "confidence": 0.911401,
+    "second_confidence": 0.004997,
+    "margin": 0.906404,
+    "top3": [
+      {
+        "word": "school",
+        "confidence": 0.911401
+      },
+      {
+        "word": "student",
+        "confidence": 0.004997
+      },
+      {
+        "word": "bad",
+        "confidence": 0.004597
+      }
+    ]
+  },
+  {
+    "true": "tomorrow",
+    "predicted": "tomorrow",
+    "correct": true,
+    "confidence": 0.936066,
+    "second_confidence": 0.007839,
+    "margin": 0.928227,
+    "top3": [
+      {
+        "word": "tomorrow",
+        "confidence": 0.936066
+      },
+      {
+        "word": "girl",
+        "confidence": 0.007839
+      },
+      {
+        "word": "dog",
+        "confidence": 0.007721
+      }
+    ]
+  },
+  {
+    "true": "you",
+    "predicted": "you",
+    "correct": true,
+    "confidence": 0.966736,
+    "second_confidence": 0.001402,
+    "margin": 0.965334,
+    "top3": [
+      {
+        "word": "you",
+        "confidence": 0.966736
+      },
+      {
+        "word": "teacher",
+        "confidence": 0.001402
+      },
+      {
+        "word": "dog",
+        "confidence": 0.001151
+      }
+    ]
+  },
+  {
+    "true": "student",
+    "predicted": "student",
+    "correct": true,
+    "confidence": 0.754413,
+    "second_confidence": 0.113513,
+    "margin": 0.6409,
+    "top3": [
+      {
+        "word": "student",
+        "confidence": 0.754413
+      },
+      {
+        "word": "school",
+        "confidence": 0.113513
+      },
+      {
+        "word": "learn",
+        "confidence": 0.020039
+      }
+    ]
+  },
+  {
+    "true": "eat",
+    "predicted": "good",
+    "correct": false,
+    "confidence": 0.967847,
+    "second_confidence": 0.002823,
+    "margin": 0.965024,
+    "top3": [
+      {
+        "word": "good",
+        "confidence": 0.967847
+      },
+      {
+        "word": "phone",
+        "confidence": 0.002823
+      },
+      {
+        "word": "forget",
+        "confidence": 0.002359
+      }
+    ]
+  },
+  {
+    "true": "mother",
+    "predicted": "mother",
+    "correct": true,
+    "confidence": 0.872538,
+    "second_confidence": 0.043906,
+    "margin": 0.828631,
+    "top3": [
+      {
+        "word": "mother",
+        "confidence": 0.872538
+      },
+      {
+        "word": "cat",
+        "confidence": 0.043906
+      },
+      {
+        "word": "father",
+        "confidence": 0.008389
+      }
+    ]
+  },
+  {
+    "true": "friend",
+    "predicted": "friend",
+    "correct": true,
+    "confidence": 0.946656,
+    "second_confidence": 0.007665,
+    "margin": 0.938991,
+    "top3": [
+      {
+        "word": "friend",
+        "confidence": 0.946656
+      },
+      {
+        "word": "month",
+        "confidence": 0.007665
+      },
+      {
+        "word": "house",
+        "confidence": 0.004976
+      }
+    ]
+  },
+  {
+    "true": "you",
+    "predicted": "you",
+    "correct": true,
+    "confidence": 0.951049,
+    "second_confidence": 0.0027,
+    "margin": 0.948349,
+    "top3": [
+      {
+        "word": "you",
+        "confidence": 0.951049
+      },
+      {
+        "word": "woman",
+        "confidence": 0.0027
+      },
+      {
+        "word": "mother",
+        "confidence": 0.001978
+      }
+    ]
+  },
+  {
+    "true": "yesterday",
+    "predicted": "yesterday",
+    "correct": true,
+    "confidence": 0.969715,
+    "second_confidence": 0.003318,
+    "margin": 0.966396,
+    "top3": [
+      {
+        "word": "yesterday",
+        "confidence": 0.969715
+      },
+      {
+        "word": "apple",
+        "confidence": 0.003318
+      },
+      {
+        "word": "hello",
+        "confidence": 0.001523
+      }
+    ]
+  },
+  {
+    "true": "no",
+    "predicted": "no",
+    "correct": true,
+    "confidence": 0.901697,
+    "second_confidence": 0.012011,
+    "margin": 0.889685,
+    "top3": [
+      {
+        "word": "no",
+        "confidence": 0.901697
+      },
+      {
+        "word": "where",
+        "confidence": 0.012011
+      },
+      {
+        "word": "cat",
+        "confidence": 0.009216
+      }
+    ]
+  },
+  {
+    "true": "coffee",
+    "predicted": "coffee",
+    "correct": true,
+    "confidence": 0.830819,
+    "second_confidence": 0.078242,
+    "margin": 0.752577,
+    "top3": [
+      {
+        "word": "coffee",
+        "confidence": 0.830819
+      },
+      {
+        "word": "right",
+        "confidence": 0.078242
+      },
+      {
+        "word": "year",
+        "confidence": 0.012706
+      }
+    ]
+  },
+  {
+    "true": "year",
+    "predicted": "brother",
+    "correct": false,
+    "confidence": 0.425839,
+    "second_confidence": 0.112326,
+    "margin": 0.313513,
+    "top3": [
+      {
+        "word": "brother",
+        "confidence": 0.425839
+      },
+      {
+        "word": "year",
+        "confidence": 0.112326
+      },
+      {
+        "word": "sister",
+        "confidence": 0.091104
+      }
+    ]
+  },
+  {
+    "true": "night",
+    "predicted": "night",
+    "correct": true,
+    "confidence": 0.977405,
+    "second_confidence": 0.003252,
+    "margin": 0.974152,
+    "top3": [
+      {
+        "word": "night",
+        "confidence": 0.977405
+      },
+      {
+        "word": "walk",
+        "confidence": 0.003252
+      },
+      {
+        "word": "learn",
+        "confidence": 0.003008
+      }
+    ]
+  },
+  {
+    "true": "good",
+    "predicted": "good",
+    "correct": true,
+    "confidence": 0.876135,
+    "second_confidence": 0.038187,
+    "margin": 0.837948,
+    "top3": [
+      {
+        "word": "good",
+        "confidence": 0.876135
+      },
+      {
+        "word": "thank_you",
+        "confidence": 0.038187
+      },
+      {
+        "word": "finish",
+        "confidence": 0.018662
+      }
+    ]
+  },
+  {
+    "true": "what",
+    "predicted": "what",
+    "correct": true,
+    "confidence": 0.39268,
+    "second_confidence": 0.071688,
+    "margin": 0.320992,
+    "top3": [
+      {
+        "word": "what",
+        "confidence": 0.39268
+      },
+      {
+        "word": "room",
+        "confidence": 0.071688
+      },
+      {
+        "word": "angry",
+        "confidence": 0.06375
+      }
+    ]
+  },
+  {
+    "true": "big",
+    "predicted": "big",
+    "correct": true,
+    "confidence": 0.826889,
+    "second_confidence": 0.070732,
+    "margin": 0.756157,
+    "top3": [
+      {
+        "word": "big",
+        "confidence": 0.826889
+      },
+      {
+        "word": "language",
+        "confidence": 0.070732
+      },
+      {
+        "word": "play",
+        "confidence": 0.026412
+      }
+    ]
+  },
+  {
+    "true": "father",
+    "predicted": "father",
+    "correct": true,
+    "confidence": 0.966663,
+    "second_confidence": 0.003647,
+    "margin": 0.963016,
+    "top3": [
+      {
+        "word": "father",
+        "confidence": 0.966663
+      },
+      {
+        "word": "boy",
+        "confidence": 0.003647
+      },
+      {
+        "word": "computer",
+        "confidence": 0.002694
+      }
+    ]
+  },
+  {
+    "true": "who",
+    "predicted": "who",
+    "correct": true,
+    "confidence": 0.982255,
+    "second_confidence": 0.002283,
+    "margin": 0.979973,
+    "top3": [
+      {
+        "word": "who",
+        "confidence": 0.982255
+      },
+      {
+        "word": "girl",
+        "confidence": 0.002283
+      },
+      {
+        "word": "sleep",
+        "confidence": 0.00102
+      }
+    ]
+  },
+  {
+    "true": "where",
+    "predicted": "where",
+    "correct": true,
+    "confidence": 0.425461,
+    "second_confidence": 0.194181,
+    "margin": 0.23128,
+    "top3": [
+      {
+        "word": "where",
+        "confidence": 0.425461
+      },
+      {
+        "word": "why",
+        "confidence": 0.194181
+      },
+      {
+        "word": "bathroom",
+        "confidence": 0.054129
+      }
+    ]
+  },
+  {
+    "true": "father",
+    "predicted": "father",
+    "correct": true,
+    "confidence": 0.955513,
+    "second_confidence": 0.003609,
+    "margin": 0.951904,
+    "top3": [
+      {
+        "word": "father",
+        "confidence": 0.955513
+      },
+      {
+        "word": "boy",
+        "confidence": 0.003609
+      },
+      {
+        "word": "computer",
+        "confidence": 0.002552
+      }
+    ]
+  },
+  {
+    "true": "computer",
+    "predicted": "boy",
+    "correct": false,
+    "confidence": 0.671373,
+    "second_confidence": 0.198064,
+    "margin": 0.473309,
+    "top3": [
+      {
+        "word": "boy",
+        "confidence": 0.671373
+      },
+      {
+        "word": "computer",
+        "confidence": 0.198064
+      },
+      {
+        "word": "father",
+        "confidence": 0.016156
+      }
+    ]
+  },
+  {
+    "true": "small",
+    "predicted": "small",
+    "correct": true,
+    "confidence": 0.895937,
+    "second_confidence": 0.014836,
+    "margin": 0.881102,
+    "top3": [
+      {
+        "word": "small",
+        "confidence": 0.895937
+      },
+      {
+        "word": "play",
+        "confidence": 0.014836
+      },
+      {
+        "word": "dog",
+        "confidence": 0.006427
+      }
+    ]
+  },
+  {
+    "true": "answer",
+    "predicted": "answer",
+    "correct": true,
+    "confidence": 0.171256,
+    "second_confidence": 0.104937,
+    "margin": 0.06632,
+    "top3": [
+      {
+        "word": "answer",
+        "confidence": 0.171256
+      },
+      {
+        "word": "go",
+        "confidence": 0.104937
+      },
+      {
+        "word": "computer",
+        "confidence": 0.053003
+      }
+    ]
+  },
+  {
+    "true": "more",
+    "predicted": "more",
+    "correct": true,
+    "confidence": 0.976785,
+    "second_confidence": 0.0032,
+    "margin": 0.973584,
+    "top3": [
+      {
+        "word": "more",
+        "confidence": 0.976785
+      },
+      {
+        "word": "door",
+        "confidence": 0.0032
+      },
+      {
+        "word": "run",
+        "confidence": 0.002758
+      }
+    ]
+  },
+  {
+    "true": "why",
+    "predicted": "why",
+    "correct": true,
+    "confidence": 0.973403,
+    "second_confidence": 0.005281,
+    "margin": 0.968122,
+    "top3": [
+      {
+        "word": "why",
+        "confidence": 0.973403
+      },
+      {
+        "word": "dog",
+        "confidence": 0.005281
+      },
+      {
+        "word": "forget",
+        "confidence": 0.00493
+      }
+    ]
+  },
+  {
+    "true": "finish",
+    "predicted": "finish",
+    "correct": true,
+    "confidence": 0.895374,
+    "second_confidence": 0.015588,
+    "margin": 0.879785,
+    "top3": [
+      {
+        "word": "finish",
+        "confidence": 0.895374
+      },
+      {
+        "word": "house",
+        "confidence": 0.015588
+      },
+      {
+        "word": "answer",
+        "confidence": 0.010874
+      }
+    ]
+  },
+  {
+    "true": "drink",
+    "predicted": "drink",
+    "correct": true,
+    "confidence": 0.591464,
+    "second_confidence": 0.083483,
+    "margin": 0.507981,
+    "top3": [
+      {
+        "word": "drink",
+        "confidence": 0.591464
+      },
+      {
+        "word": "know",
+        "confidence": 0.083483
+      },
+      {
+        "word": "boy",
+        "confidence": 0.082252
+      }
+    ]
+  },
+  {
+    "true": "want",
+    "predicted": "want",
+    "correct": true,
+    "confidence": 0.847404,
+    "second_confidence": 0.026776,
+    "margin": 0.820628,
+    "top3": [
+      {
+        "word": "want",
+        "confidence": 0.847404
+      },
+      {
+        "word": "wait",
+        "confidence": 0.026776
+      },
+      {
+        "word": "today",
+        "confidence": 0.016835
+      }
+    ]
+  },
+  {
+    "true": "language",
+    "predicted": "language",
+    "correct": true,
+    "confidence": 0.793352,
+    "second_confidence": 0.04756,
+    "margin": 0.745792,
+    "top3": [
+      {
+        "word": "language",
+        "confidence": 0.793352
+      },
+      {
+        "word": "play",
+        "confidence": 0.04756
+      },
+      {
+        "word": "big",
+        "confidence": 0.039337
+      }
+    ]
+  },
+  {
+    "true": "week",
+    "predicted": "student",
+    "correct": false,
+    "confidence": 0.272875,
+    "second_confidence": 0.244418,
+    "margin": 0.028457,
+    "top3": [
+      {
+        "word": "student",
+        "confidence": 0.272875
+      },
+      {
+        "word": "week",
+        "confidence": 0.244418
+      },
+      {
+        "word": "school",
+        "confidence": 0.122502
+      }
+    ]
+  },
+  {
+    "true": "how",
+    "predicted": "wait",
+    "correct": false,
+    "confidence": 0.195907,
+    "second_confidence": 0.186551,
+    "margin": 0.009356,
+    "top3": [
+      {
+        "word": "wait",
+        "confidence": 0.195907
+      },
+      {
+        "word": "good",
+        "confidence": 0.186551
+      },
+      {
+        "word": "today",
+        "confidence": 0.078156
+      }
+    ]
+  },
+  {
+    "true": "need",
+    "predicted": "need",
+    "correct": true,
+    "confidence": 0.957799,
+    "second_confidence": 0.003782,
+    "margin": 0.954017,
+    "top3": [
+      {
+        "word": "need",
+        "confidence": 0.957799
+      },
+      {
+        "word": "run",
+        "confidence": 0.003782
+      },
+      {
+        "word": "girl",
+        "confidence": 0.003508
+      }
+    ]
+  },
+  {
+    "true": "day",
+    "predicted": "day",
+    "correct": true,
+    "confidence": 0.973738,
+    "second_confidence": 0.001872,
+    "margin": 0.971866,
+    "top3": [
+      {
+        "word": "day",
+        "confidence": 0.973738
+      },
+      {
+        "word": "time",
+        "confidence": 0.001872
+      },
+      {
+        "word": "read",
+        "confidence": 0.001441
+      }
+    ]
+  },
+  {
+    "true": "phone",
+    "predicted": "phone",
+    "correct": true,
+    "confidence": 0.98091,
+    "second_confidence": 0.002357,
+    "margin": 0.978553,
+    "top3": [
+      {
+        "word": "phone",
+        "confidence": 0.98091
+      },
+      {
+        "word": "forget",
+        "confidence": 0.002357
+      },
+      {
+        "word": "happy",
+        "confidence": 0.00186
+      }
+    ]
+  },
+  {
+    "true": "right",
+    "predicted": "right",
+    "correct": true,
+    "confidence": 0.924725,
+    "second_confidence": 0.016264,
+    "margin": 0.908461,
+    "top3": [
+      {
+        "word": "right",
+        "confidence": 0.924725
+      },
+      {
+        "word": "coffee",
+        "confidence": 0.016264
+      },
+      {
+        "word": "play",
+        "confidence": 0.009151
+      }
+    ]
+  },
+  {
+    "true": "love",
+    "predicted": "love",
+    "correct": true,
+    "confidence": 0.980484,
+    "second_confidence": 0.003447,
+    "margin": 0.977037,
+    "top3": [
+      {
+        "word": "love",
+        "confidence": 0.980484
+      },
+      {
+        "word": "run",
+        "confidence": 0.003447
+      },
+      {
+        "word": "day",
+        "confidence": 0.002438
+      }
+    ]
+  },
+  {
+    "true": "tired",
+    "predicted": "tired",
+    "correct": true,
+    "confidence": 0.952802,
+    "second_confidence": 0.002469,
+    "margin": 0.950333,
+    "top3": [
+      {
+        "word": "tired",
+        "confidence": 0.952802
+      },
+      {
+        "word": "sorry",
+        "confidence": 0.002469
+      },
+      {
+        "word": "day",
+        "confidence": 0.001757
+      }
+    ]
+  },
+  {
+    "true": "sleep",
+    "predicted": "eat",
+    "correct": false,
+    "confidence": 0.965951,
+    "second_confidence": 0.005716,
+    "margin": 0.960235,
+    "top3": [
+      {
+        "word": "eat",
+        "confidence": 0.965951
+      },
+      {
+        "word": "sleep",
+        "confidence": 0.005716
+      },
+      {
+        "word": "water",
+        "confidence": 0.00141
+      }
+    ]
+  },
+  {
+    "true": "home",
+    "predicted": "home",
+    "correct": true,
+    "confidence": 0.954253,
+    "second_confidence": 0.002379,
+    "margin": 0.951874,
+    "top3": [
+      {
+        "word": "home",
+        "confidence": 0.954253
+      },
+      {
+        "word": "food",
+        "confidence": 0.002379
+      },
+      {
+        "word": "dog",
+        "confidence": 0.002264
+      }
+    ]
+  },
+  {
+    "true": "yes",
+    "predicted": "yes",
+    "correct": true,
+    "confidence": 0.711022,
+    "second_confidence": 0.037201,
+    "margin": 0.673821,
+    "top3": [
+      {
+        "word": "yes",
+        "confidence": 0.711022
+      },
+      {
+        "word": "yesterday",
+        "confidence": 0.037201
+      },
+      {
+        "word": "girl",
+        "confidence": 0.030509
+      }
+    ]
+  },
+  {
+    "true": "more",
+    "predicted": "more",
+    "correct": true,
+    "confidence": 0.917174,
+    "second_confidence": 0.018667,
+    "margin": 0.898507,
+    "top3": [
+      {
+        "word": "more",
+        "confidence": 0.917174
+      },
+      {
+        "word": "teacher",
+        "confidence": 0.018667
+      },
+      {
+        "word": "cold",
+        "confidence": 0.012086
+      }
+    ]
+  },
+  {
+    "true": "sad",
+    "predicted": "sad",
+    "correct": true,
+    "confidence": 0.922317,
+    "second_confidence": 0.008136,
+    "margin": 0.914181,
+    "top3": [
+      {
+        "word": "sad",
+        "confidence": 0.922317
+      },
+      {
+        "word": "wait",
+        "confidence": 0.008136
+      },
+      {
+        "word": "good",
+        "confidence": 0.00435
+      }
+    ]
+  },
+  {
+    "true": "think",
+    "predicted": "think",
+    "correct": true,
+    "confidence": 0.972131,
+    "second_confidence": 0.002928,
+    "margin": 0.969203,
+    "top3": [
+      {
+        "word": "think",
+        "confidence": 0.972131
+      },
+      {
+        "word": "apple",
+        "confidence": 0.002928
+      },
+      {
+        "word": "month",
+        "confidence": 0.002635
+      }
+    ]
+  },
+  {
+    "true": "today",
+    "predicted": "today",
+    "correct": true,
+    "confidence": 0.985167,
+    "second_confidence": 0.001108,
+    "margin": 0.984059,
+    "top3": [
+      {
+        "word": "today",
+        "confidence": 0.985167
+      },
+      {
+        "word": "week",
+        "confidence": 0.001108
+      },
+      {
+        "word": "come",
+        "confidence": 0.001033
+      }
+    ]
+  },
+  {
+    "true": "bathroom",
+    "predicted": "bathroom",
+    "correct": true,
+    "confidence": 0.549081,
+    "second_confidence": 0.222702,
+    "margin": 0.326379,
+    "top3": [
+      {
+        "word": "bathroom",
+        "confidence": 0.549081
+      },
+      {
+        "word": "no",
+        "confidence": 0.222702
+      },
+      {
+        "word": "remember",
+        "confidence": 0.014467
+      }
+    ]
+  },
+  {
+    "true": "drink",
+    "predicted": "drink",
+    "correct": true,
+    "confidence": 0.882302,
+    "second_confidence": 0.018091,
+    "margin": 0.864211,
+    "top3": [
+      {
+        "word": "drink",
+        "confidence": 0.882302
+      },
+      {
+        "word": "boy",
+        "confidence": 0.018091
+      },
+      {
+        "word": "know",
+        "confidence": 0.00629
+      }
+    ]
+  },
+  {
+    "true": "understand",
+    "predicted": "understand",
+    "correct": true,
+    "confidence": 0.920948,
+    "second_confidence": 0.011512,
+    "margin": 0.909436,
+    "top3": [
+      {
+        "word": "understand",
+        "confidence": 0.920948
+      },
+      {
+        "word": "think",
+        "confidence": 0.011512
+      },
+      {
+        "word": "run",
+        "confidence": 0.004049
+      }
+    ]
+  },
+  {
+    "true": "yesterday",
+    "predicted": "yesterday",
+    "correct": true,
+    "confidence": 0.945321,
+    "second_confidence": 0.004118,
+    "margin": 0.941204,
+    "top3": [
+      {
+        "word": "yesterday",
+        "confidence": 0.945321
+      },
+      {
+        "word": "apple",
+        "confidence": 0.004118
+      },
+      {
+        "word": "hello",
+        "confidence": 0.001933
+      }
+    ]
+  },
+  {
+    "true": "good",
+    "predicted": "good",
+    "correct": true,
+    "confidence": 0.950745,
+    "second_confidence": 0.010178,
+    "margin": 0.940567,
+    "top3": [
+      {
+        "word": "good",
+        "confidence": 0.950745
+      },
+      {
+        "word": "thank_you",
+        "confidence": 0.010178
+      },
+      {
+        "word": "finish",
+        "confidence": 0.004943
+      }
+    ]
+  },
+  {
+    "true": "hot",
+    "predicted": "hello",
+    "correct": false,
+    "confidence": 0.455716,
+    "second_confidence": 0.145741,
+    "margin": 0.309975,
+    "top3": [
+      {
+        "word": "hello",
+        "confidence": 0.455716
+      },
+      {
+        "word": "big",
+        "confidence": 0.145741
+      },
+      {
+        "word": "why",
+        "confidence": 0.122818
+      }
+    ]
+  },
+  {
+    "true": "drink",
+    "predicted": "drink",
+    "correct": true,
+    "confidence": 0.551923,
+    "second_confidence": 0.154046,
+    "margin": 0.397877,
+    "top3": [
+      {
+        "word": "drink",
+        "confidence": 0.551923
+      },
+      {
+        "word": "yesterday",
+        "confidence": 0.154046
+      },
+      {
+        "word": "father",
+        "confidence": 0.015595
+      }
+    ]
+  },
+  {
+    "true": "when",
+    "predicted": "when",
+    "correct": true,
+    "confidence": 0.955096,
+    "second_confidence": 0.00533,
+    "margin": 0.949766,
+    "top3": [
+      {
+        "word": "when",
+        "confidence": 0.955096
+      },
+      {
+        "word": "name",
+        "confidence": 0.00533
+      },
+      {
+        "word": "chair",
+        "confidence": 0.005216
+      }
+    ]
+  },
+  {
+    "true": "morning",
+    "predicted": "morning",
+    "correct": true,
+    "confidence": 0.936788,
+    "second_confidence": 0.017674,
+    "margin": 0.919115,
+    "top3": [
+      {
+        "word": "morning",
+        "confidence": 0.936788
+      },
+      {
+        "word": "music",
+        "confidence": 0.017674
+      },
+      {
+        "word": "book",
+        "confidence": 0.004355
+      }
+    ]
+  },
+  {
+    "true": "boy",
+    "predicted": "computer",
+    "correct": false,
+    "confidence": 0.718046,
+    "second_confidence": 0.076934,
+    "margin": 0.641111,
+    "top3": [
+      {
+        "word": "computer",
+        "confidence": 0.718046
+      },
+      {
+        "word": "boy",
+        "confidence": 0.076934
+      },
+      {
+        "word": "father",
+        "confidence": 0.069726
+      }
+    ]
+  },
+  {
+    "true": "me",
+    "predicted": "me",
+    "correct": true,
+    "confidence": 0.989519,
+    "second_confidence": 0.001868,
+    "margin": 0.987651,
+    "top3": [
+      {
+        "word": "me",
+        "confidence": 0.989519
+      },
+      {
+        "word": "sorry",
+        "confidence": 0.001868
+      },
+      {
+        "word": "who",
+        "confidence": 0.000555
+      }
+    ]
+  },
+  {
+    "true": "work",
+    "predicted": "work",
+    "correct": true,
+    "confidence": 0.922863,
+    "second_confidence": 0.014551,
+    "margin": 0.908312,
+    "top3": [
+      {
+        "word": "work",
+        "confidence": 0.922863
+      },
+      {
+        "word": "music",
+        "confidence": 0.014551
+      },
+      {
+        "word": "walk",
+        "confidence": 0.003546
+      }
+    ]
+  },
+  {
+    "true": "wait",
+    "predicted": "wait",
+    "correct": true,
+    "confidence": 0.806893,
+    "second_confidence": 0.029873,
+    "margin": 0.777019,
+    "top3": [
+      {
+        "word": "wait",
+        "confidence": 0.806893
+      },
+      {
+        "word": "want",
+        "confidence": 0.029873
+      },
+      {
+        "word": "book",
+        "confidence": 0.022636
+      }
+    ]
+  },
+  {
+    "true": "here",
+    "predicted": "here",
+    "correct": true,
+    "confidence": 0.836427,
+    "second_confidence": 0.017313,
+    "margin": 0.819114,
+    "top3": [
+      {
+        "word": "here",
+        "confidence": 0.836427
+      },
+      {
+        "word": "book",
+        "confidence": 0.017313
+      },
+      {
+        "word": "student",
+        "confidence": 0.007889
+      }
+    ]
+  },
+  {
+    "true": "know",
+    "predicted": "know",
+    "correct": true,
+    "confidence": 0.746467,
+    "second_confidence": 0.058145,
+    "margin": 0.688322,
+    "top3": [
+      {
+        "word": "know",
+        "confidence": 0.746467
+      },
+      {
+        "word": "home",
+        "confidence": 0.058145
+      },
+      {
+        "word": "forget",
+        "confidence": 0.015138
+      }
+    ]
+  },
+  {
+    "true": "need",
+    "predicted": "yes",
+    "correct": false,
+    "confidence": 0.607871,
+    "second_confidence": 0.0712,
+    "margin": 0.536671,
+    "top3": [
+      {
+        "word": "yes",
+        "confidence": 0.607871
+      },
+      {
+        "word": "no",
+        "confidence": 0.0712
+      },
+      {
+        "word": "bathroom",
+        "confidence": 0.057918
+      }
+    ]
+  },
+  {
+    "true": "yes",
+    "predicted": "yes",
+    "correct": true,
+    "confidence": 0.956612,
+    "second_confidence": 0.003279,
+    "margin": 0.953332,
+    "top3": [
+      {
+        "word": "yes",
+        "confidence": 0.956612
+      },
+      {
+        "word": "child",
+        "confidence": 0.003279
+      },
+      {
+        "word": "need",
+        "confidence": 0.002292
+      }
+    ]
+  },
+  {
+    "true": "mother",
+    "predicted": "mother",
+    "correct": true,
+    "confidence": 0.97462,
+    "second_confidence": 0.002862,
+    "margin": 0.971758,
+    "top3": [
+      {
+        "word": "mother",
+        "confidence": 0.97462
+      },
+      {
+        "word": "cat",
+        "confidence": 0.002862
+      },
+      {
+        "word": "right",
+        "confidence": 0.001284
+      }
+    ]
+  },
+  {
+    "true": "angry",
+    "predicted": "angry",
+    "correct": true,
+    "confidence": 0.973332,
+    "second_confidence": 0.002948,
+    "margin": 0.970384,
+    "top3": [
+      {
+        "word": "angry",
+        "confidence": 0.973332
+      },
+      {
+        "word": "read",
+        "confidence": 0.002948
+      },
+      {
+        "word": "know",
+        "confidence": 0.00212
+      }
+    ]
+  },
+  {
+    "true": "go",
+    "predicted": "go",
+    "correct": true,
+    "confidence": 0.955114,
+    "second_confidence": 0.005402,
+    "margin": 0.949712,
+    "top3": [
+      {
+        "word": "go",
+        "confidence": 0.955114
+      },
+      {
+        "word": "language",
+        "confidence": 0.005402
+      },
+      {
+        "word": "answer",
+        "confidence": 0.004155
+      }
+    ]
+  },
+  {
+    "true": "please",
+    "predicted": "please",
+    "correct": true,
+    "confidence": 0.979964,
+    "second_confidence": 0.001093,
+    "margin": 0.978871,
+    "top3": [
+      {
+        "word": "please",
+        "confidence": 0.979964
+      },
+      {
+        "word": "tomorrow",
+        "confidence": 0.001093
+      },
+      {
+        "word": "happy",
+        "confidence": 0.000965
+      }
+    ]
+  },
+  {
+    "true": "house",
+    "predicted": "teacher",
+    "correct": false,
+    "confidence": 0.972663,
+    "second_confidence": 0.006581,
+    "margin": 0.966082,
+    "top3": [
+      {
+        "word": "teacher",
+        "confidence": 0.972663
+      },
+      {
+        "word": "house",
+        "confidence": 0.006581
+      },
+      {
+        "word": "angry",
+        "confidence": 0.002567
+      }
+    ]
+  },
+  {
+    "true": "girl",
+    "predicted": "where",
+    "correct": false,
+    "confidence": 0.583585,
+    "second_confidence": 0.040346,
+    "margin": 0.54324,
+    "top3": [
+      {
+        "word": "where",
+        "confidence": 0.583585
+      },
+      {
+        "word": "girl",
+        "confidence": 0.040346
+      },
+      {
+        "word": "no",
+        "confidence": 0.034178
+      }
+    ]
+  },
+  {
+    "true": "woman",
+    "predicted": "woman",
+    "correct": true,
+    "confidence": 0.948955,
+    "second_confidence": 0.003794,
+    "margin": 0.945161,
+    "top3": [
+      {
+        "word": "woman",
+        "confidence": 0.948955
+      },
+      {
+        "word": "finish",
+        "confidence": 0.003794
+      },
+      {
+        "word": "read",
+        "confidence": 0.002742
+      }
+    ]
+  },
+  {
+    "true": "car",
+    "predicted": "car",
+    "correct": true,
+    "confidence": 0.972492,
+    "second_confidence": 0.004448,
+    "margin": 0.968044,
+    "top3": [
+      {
+        "word": "car",
+        "confidence": 0.972492
+      },
+      {
+        "word": "water",
+        "confidence": 0.004448
+      },
+      {
+        "word": "run",
+        "confidence": 0.003795
+      }
+    ]
+  },
+  {
+    "true": "happy",
+    "predicted": "happy",
+    "correct": true,
+    "confidence": 0.97585,
+    "second_confidence": 0.003484,
+    "margin": 0.972366,
+    "top3": [
+      {
+        "word": "happy",
+        "confidence": 0.97585
+      },
+      {
+        "word": "room",
+        "confidence": 0.003484
+      },
+      {
+        "word": "walk",
+        "confidence": 0.001899
+      }
+    ]
+  },
+  {
+    "true": "brother",
+    "predicted": "brother",
+    "correct": true,
+    "confidence": 0.232841,
+    "second_confidence": 0.128756,
+    "margin": 0.104085,
+    "top3": [
+      {
+        "word": "brother",
+        "confidence": 0.232841
+      },
+      {
+        "word": "sister",
+        "confidence": 0.128756
+      },
+      {
+        "word": "year",
+        "confidence": 0.091642
+      }
+    ]
+  }
+]
