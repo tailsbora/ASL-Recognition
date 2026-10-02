@@ -18,3 +18,4 @@ asl_data/
 *.tmp
 .DS_Store
 Thumbs.db
+WLASL/start_kit/failed_downloads.json
